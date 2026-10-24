@@ -204,6 +204,7 @@ img {
 }
 
 .about__text {
+    font-family: "Alexandria", sans-serif;
     font-size: clamp(.8rem, 1.2vw, 1.2rem);
     line-height: 1.6;
 }
@@ -302,8 +303,8 @@ img {
 .album__text {
     flex: 1 1 50%;
     margin: 0;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-family: "Alexandria", sans-serif;
+    font-weight: 400;
     font-size: clamp(.7rem, .95vw, 1rem);
     line-height: 1.55;
     text-align: justify;
