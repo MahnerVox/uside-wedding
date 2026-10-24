@@ -648,3 +648,27 @@ img {
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 2vw;
+    bottom: 2vw;
+    z-index: 100;
+    width: clamp(2.8rem, 4vw, 4rem);
+    height: clamp(2.8rem, 4vw, 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #d4b04a, #a6842a);
+    color: #fff;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.back-to-top:hover {
+    transform: translateY(-3px);
+}
