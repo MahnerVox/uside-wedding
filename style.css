@@ -643,3 +643,8 @@ img {
     font-size: clamp(.8rem, 1.1vw, 1.15rem);
     color: #1d1608;
 }
+
+.services__fit {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+}
